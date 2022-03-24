@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'section-custom-menu.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'section-custom-menu.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -101,6 +101,12 @@
       "id": "menu",
       "default": "main-menu",
       "label": "t:sections.custom-menu.settings.menu.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "custom-menu",
+      "category": "Custom Menu"
     }
   ]
 }
