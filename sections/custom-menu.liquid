@@ -24,8 +24,13 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'menu' -%}
-            <h2>Test</h2>
-        
+            <ul class="list-menu list-menu--inline" role="list">
+              {%- for link in section.settings.menu.links -%}
+                <li>
+                  <a href="{{ link.url }}" class="custom-menu__link">{{ link.title }}</a>
+                </li>
+              {%- endfor -%}
+            <ul/>
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -70,7 +75,7 @@
       "type": "checkbox",
       "id": "full_width",
       "default": true,
-      "label": "t:sections.custom-menu.settings.full_width.label"
+      "label": "Fullwidth?"
     },
     {
       "type": "header",
@@ -105,7 +110,7 @@
   ],
   "presets": [
     {
-      "name": "custom-menu",
+      "name": "Custom Menu",
       "category": "Custom Menu"
     }
   ]
