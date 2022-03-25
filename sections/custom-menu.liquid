@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-custom-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
@@ -18,8 +18,8 @@
   }
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="custom-menu content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} custom-menu--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
+<div class="isolate page-width">
+  <div class="custom-menu content-container color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
     <div class="custom-menu__blocks">
       <ul class="list-menu list-menu--inline" role="list">
         {%- for link in section.settings.menu.links -%}
@@ -65,12 +65,6 @@
       ],
       "default": "background-1",
       "label": "t:sections.all.colors.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "full_width",
-      "default": true,
-      "label": "Full width"
     },
     {
       "type": "header",
