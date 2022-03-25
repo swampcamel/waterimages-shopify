@@ -18,17 +18,15 @@
   }
 {%- endstyle -%}
 
-<div class="isolate page-width">
+<div class="isolate">
   <div class="custom-menu content-container color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-    <div class="custom-menu__blocks">
-      <ul class="list-menu list-menu--inline" role="list">
-        {%- for link in section.settings.menu.links -%}
-          <li>
-            <a href="{{ link.url }}" class="custom-menu__link">{{ link.title }}</a>
-          </li>
-        {%- endfor -%}
-      <ul/>
-    </div>
+    <ul class="list-menu list-menu--inline" role="list">
+      {%- for link in section.settings.menu.links -%}
+        <li>
+          <a href="{{ link.url }}" class="custom-menu__link">{{ link.title }}</a>
+        </li>
+      {%- endfor -%}
+    <ul/>
   </div>
 </div>
 
