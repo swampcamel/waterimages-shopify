@@ -52,3 +52,18 @@
   height: 3px;
   background-color: #000;
 }
+
+.collection-feature__tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collection-feature__tags a {
+  color: black;
+  padding: 6px 12px;
+  border: 1px solid rgb(48, 48, 48);
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 9px 15px -5px #000000; 
+  box-shadow: 0px 9px 15px -5px #000000;
+  margin-right: 12px;
+}

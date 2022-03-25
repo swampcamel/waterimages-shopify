@@ -9,6 +9,12 @@
         <div class="collection-feature__content__wrapper">
           <h3>{{ section.settings.collection.title }}</h3>
           <div class=".collection-feature__divider"></div>
+          {%- if section.settings.collection.all_tags != blank -%}
+            <div class="collection-feature__tags">
+            {%- for tag in section.settings.collection.all_tags -%}
+              {{ tag | link_to_type }}
+            {%- endfor -%}
+          {%- endif -%}
           <a href="{{ section.settings.collection.url }}"><button class="collection-feature__button">View Collection</button></a>
         </div>
       {%- endif -%}
