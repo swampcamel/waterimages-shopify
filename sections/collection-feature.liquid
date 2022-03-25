@@ -7,9 +7,10 @@
     <div class="collection-feature__col collection-feature__content">
       {%- if section.settings.collection != blank -%}
         <div class="collection-feature__content__wrapper">
-        <h3>{{ section.settings.collection.title }}</h3>
-        <div class=".collection-feature__divider"></div>
-        <a href="{{ section.settings.collection.url }}"><button class="collection-feature__button">View Collection</button></a>
+          <h3>{{ section.settings.collection.title }}</h3>
+          <div class=".collection-feature__divider"></div>
+          <a href="{{ section.settings.collection.url }}"><button class="collection-feature__button">View Collection</button></a>
+        </div>
       {%- endif -%}
     </div>
     <div class="collection-feature__col collection-feature__image" style="{% if section.settings.image != blank %} background-image: url({{ section.settings.image | image_url: width: 800 }}) {% endif %}" >
