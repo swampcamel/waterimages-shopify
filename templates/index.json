@@ -44,9 +44,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/great_heron_florida_15_8_H_x_11.75_W_37.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 0,
         "image_height": "large",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
