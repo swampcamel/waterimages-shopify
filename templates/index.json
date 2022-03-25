@@ -82,11 +82,20 @@
         "padding_bottom": 52,
         "menu": "catalog-menu"
       }
+    },
+    "1648215781b8853005": {
+      "type": "collection-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/great_heron_florida_15_8_H_x_11.75_W_37.jpg",
+        "reverse": false,
+        "collection": ""
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "164818792286027bf5"
+    "164818792286027bf5",
+    "1648215781b8853005"
   ]
 }
