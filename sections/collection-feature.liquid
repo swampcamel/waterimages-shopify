@@ -1,13 +1,17 @@
+<link rel="stylesheet" href="{{ 'section-custom-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 
+<noscript>{{ 'section-custom-menu.css' | asset_url | stylesheet_tag }}</noscript>
 
 <div class="isolate">
   <div class="collection-feature content-container{% if section.settings.reverse %} reverse {% endif %}">
-    <div class="collection-feature__col">
+    <div class="collection-feature__col collection-feature__content">
       {%- if section.settings.collection != blank -%}
         <h3>{{ section.settings.collection.title }}</h3>
+
+        <a href="{{ section.settings.collection.url }}"><button class="collection-feature__button">View Collection</button></a>
       {%- endif -%}
     </div>
-    <div class="collection-feature__col" style="{% if section.settings.image != blank %} background-image: url({{ section.settings.image | image_url: width: 800 }}) {% endif %}" >
+    <div class="collection-feature__col collection-feature__image" style="{% if section.settings.image != blank %} background-image: url({{ section.settings.image | image_url: width: 800 }}) {% endif %}" >
 
     </div>
   </div>
