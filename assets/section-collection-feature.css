@@ -9,6 +9,10 @@
   flex-direction: row-reverse;
 }
 
+.collection-feature__col {
+  flex: 1;
+}
+
 .collection-feature_image {
   background-position: center center;
   background-repeat: no-repeat;
