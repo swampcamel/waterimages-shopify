@@ -56,32 +56,6 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "animals",
-        "products_to_show": 5,
-        "columns_desktop": 2,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "164818792286027bf5": {
       "type": "custom-menu",
       "settings": {
@@ -106,13 +80,52 @@
         "reverse": true,
         "collection": "birds"
       }
+    },
+    "1648217525adf72d2b": {
+      "type": "collection-feature",
+      "settings": {
+        "reverse": false,
+        "collection": "miscellaneous"
+      }
+    },
+    "16482175711d03e17c": {
+      "type": "collection-feature",
+      "settings": {
+        "reverse": true,
+        "collection": "political"
+      }
+    },
+    "1648217597a55f3acb": {
+      "type": "collection-feature",
+      "settings": {
+        "reverse": false,
+        "collection": "scenery"
+      }
+    },
+    "16482176149b03e63a": {
+      "type": "collection-feature",
+      "settings": {
+        "reverse": true,
+        "collection": "themes"
+      }
+    },
+    "16482176267a770ee0": {
+      "type": "collection-feature",
+      "settings": {
+        "reverse": false,
+        "collection": "travel"
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection",
     "164818792286027bf5",
     "1648216442dd5a59df",
-    "16482167106f1a7b31"
+    "16482167106f1a7b31",
+    "1648217525adf72d2b",
+    "16482175711d03e17c",
+    "1648217597a55f3acb",
+    "16482176149b03e63a",
+    "16482176267a770ee0"
   ]
 }
