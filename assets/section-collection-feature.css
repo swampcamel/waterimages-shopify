@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   flex: 1 0;
-  height: 580px;
+  height: 500px;
 }
 
 .collection-feature.reverse {
@@ -13,7 +13,7 @@
   flex: 1;
 }
 
-.collection-feature_image {
+.collection-feature__image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
