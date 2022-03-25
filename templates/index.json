@@ -10,10 +10,17 @@
             "heading_size": "h0"
           }
         },
+        "97e006ca-6647-44aa-9e88-05107d5d5f58": {
+          "type": "heading",
+          "settings": {
+            "heading": "by Don Jackson",
+            "heading_size": "h2"
+          }
+        },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Giclee Art Prints by Don Jackson",
+            "text": "Giclee Art Prints",
             "text_style": "subtitle"
           }
         },
@@ -31,6 +38,7 @@
       },
       "block_order": [
         "heading",
+        "97e006ca-6647-44aa-9e88-05107d5d5f58",
         "text",
         "button"
       ],
