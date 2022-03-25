@@ -10,7 +10,7 @@
 }
 
 .collection-feature__col {
-  flex: 1;
+  flex: 1 1 50%;
 }
 
 .collection-feature__image {
@@ -21,8 +21,27 @@
 }
 
 .collection-feature__content {
-  padding: 24px;
+  padding: 24px 42px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.collection-feature__content h3 {
+  font-size: 36px;
+  line-height: 100%;
+}
+
+.collection-feature__content button {
+  background-color: transparent;
+  padding: 18px 28px;
+  border: 2px solid #000;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.collection-feature__divider {
+  width: 180px;
+  height: 3px;
+  background-color: #000;
 }
