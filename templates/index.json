@@ -90,12 +90,21 @@
         "reverse": false,
         "collection": "animals"
       }
+    },
+    "16482167106f1a7b31": {
+      "type": "collection-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/great_heron_florida_15_8_H_x_11.75_W_37.jpg",
+        "reverse": true,
+        "collection": "birds"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
     "164818792286027bf5",
-    "1648216442dd5a59df"
+    "1648216442dd5a59df",
+    "16482167106f1a7b31"
   ]
 }
