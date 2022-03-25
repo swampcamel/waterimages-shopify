@@ -7,7 +7,7 @@
         <h3>{{ section.settings.collection.title }}</h3>
       {%- endif -%}
     </div>
-    <div class="collection-feature__col" style="{% if section.settings.image != blank %} background-image: url({{ section.settings.image | image_url: 'medium' }}) {% endif %}" >
+    <div class="collection-feature__col" style="{% if section.settings.image != blank %} background-image: url({{ section.settings.image | image_url: width: 800 }}) {% endif %}" >
 
     </div>
   </div>
