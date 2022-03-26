@@ -31,8 +31,8 @@
 }
 
 .custom-menu ul > li a:hover, .color-background-2.custom-menu ul > li a:hover {
-  color: #ceffc9;
-  text-shadow: 1px 1px 1px rgb(7, 22, 71), -1px 1px 1px rgb(7, 22, 71), 1px -1px 1px rgb(7, 22, 71), -1px -1px 1px rgb(7, 22, 71);
+  color: #c3ccff;
+  text-shadow: 2px 2px 2px rgb(7, 22, 71), -2px 2px 2px rgb(7, 22, 71), 2px -2px 2px rgb(7, 22, 71), -2px -2px 2px rgb(7, 22, 71);
 }
 
 .custom-menu ul > li a:visited {
