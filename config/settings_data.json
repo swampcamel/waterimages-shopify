@@ -103,7 +103,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Grand Opening Offer!  Use checkout code SPRING2022 amd save 15%.",
+              "text": "Grand Opening Offer!  Use gift code SPRING2022 at checkout and save 15% on your first order.",
               "color_scheme": "accent-1",
               "link": ""
             }
