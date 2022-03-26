@@ -32,7 +32,7 @@
 
 .custom-menu ul > li a:hover, .color-background-2.custom-menu ul > li a:hover {
   color: #ceffc9;
-  text-shadow: 0 0 2px rgb(7, 22, 71);
+  text-shadow: 1px 1px 1px rgb(7, 22, 71), -1px 1px 1px rgb(7, 22, 71), 1px -1px 1px rgb(7, 22, 71), -1px -1px 1px rgb(7, 22, 71);
 }
 
 .custom-menu ul > li a:visited {
