@@ -104,7 +104,7 @@
             "type": "announcement",
             "settings": {
               "text": "Grand Opening Offer!  Use checkout code SPRING2022 amd save 15%.",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
