@@ -46,6 +46,15 @@
   border: 2px solid #000;
   letter-spacing: 0.11em;
   text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.29s ease-in-out all;
+  background-color: transparent;
+}
+
+.collection-feature__content button:hover {
+  background-color: rgb(9 58 88);
+  color: white;
+  border: 2px solid rgb(9 58 88);
 }
 
 .collection-feature__divider {
