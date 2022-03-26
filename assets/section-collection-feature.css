@@ -18,6 +18,24 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: dimgrey;
+  overflow: hidden;
+  position: relative;
+  transform: all 0.29s ease-in-out;
+}
+
+.collection-feature__image::before {
+  background: inherit;
+  transition: inherit;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+}
+
+.collection-feature__image:hover::before {
+  transform: scale(1.15);
 }
 
 .collection-feature__content {
