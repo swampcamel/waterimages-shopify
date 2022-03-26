@@ -32,6 +32,9 @@
 
 .custom-menu ul > li a:hover, .color-background-2.custom-menu ul > li a:hover {
   text-shadow: 2px 2px 2px rgb(7, 22, 71), -2px 2px 2px rgb(7, 22, 71), 2px -2px 2px rgb(7, 22, 71), -2px -2px 2px rgb(7, 22, 71);
+  -webkit-box-shadow: 0px 17px 15px -6px #000000; 
+  box-shadow: 0px 17px 15px -6px #000000;
+  transform: translateY(-3px);
 }
 
 .custom-menu ul > li a:visited {
