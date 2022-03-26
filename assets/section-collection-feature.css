@@ -20,7 +20,7 @@
   background-color: dimgrey;
   overflow: hidden;
   position: relative;
-  transform: all 0.29s ease-in-out;
+  transition: all 0.29s ease-in-out;
 }
 
 .collection-feature__image::before {
