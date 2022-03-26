@@ -60,12 +60,18 @@
   margin-bottom: 24px;
 }
 
-.collection-feature__tags a {
+.collection-feature__tags a, .collection-feature__tags a:visited {
   color: black;
   padding: 6px 12px;
-  border: 1px solid rgb(48, 48, 48);
+  border: 2px solid rgb(9 58 88);
+  text-decoration: none;
   border-radius: 12px;
+  transition: all 0.29s ease-in-out;
+  margin-right: 12px;
+}
+
+.collection-feature__tags a:hover {
   -webkit-box-shadow: 0px 9px 15px -5px #000000; 
   box-shadow: 0px 9px 15px -5px #000000;
-  margin-right: 12px;
+  transform: translateY(-4px);
 }
