@@ -1,4 +1,4 @@
-{% assign type_size = section.settings.collection.all_tags | size %}
+{% assign first_type = section.settings.collection.all_tags | first %}
 
 <link rel="stylesheet" href="{{ 'section-collection-feature.css' | asset_url }}" media="print" onload="this.media='all'">
 
@@ -11,7 +11,7 @@
         <div class="collection-feature__content__wrapper">
           <h3>{{ section.settings.collection.title }}</h3>
           <div class=".collection-feature__divider"></div>
-          {%- if section.settings.collection.all_tags != blank and section.settings.collection.all_tags != "Photography" -%}
+          {%- if section.settings.collection.all_tags != blank and first_type != "Photography" -%}
             <div class="collection-feature__tags">
             {%- for tag in section.settings.collection.all_types -%}
               {{ tag | link_to_type }}
