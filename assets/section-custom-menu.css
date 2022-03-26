@@ -25,6 +25,7 @@
   font-weight: bold;
   transition: 0.29s ease-in-out all;
   position: relative;
+  display: inline-block;
 }
 
 .custom-menu ul > li a:before {
@@ -37,6 +38,8 @@
   width: 0px;
   height: 2px;
   background-color: white;
+  opacity: 0;
+  content: "";
 }
 
 .custom-menu ul > li a:after {
@@ -49,6 +52,8 @@
   width: 0px;
   height: 2px;
   background-color: white;
+  opacity: 0;
+  content: "";
 }
 
 .color-background-2.custom-menu ul > li a, .color-background-2.custom-menu ul > li a:visited{
