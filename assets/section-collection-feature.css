@@ -37,6 +37,7 @@
 .collection-feature__content h3 {
   font-size: 42px;
   line-height: 100%;
+  margin: 24px 0;
 }
 
 .collection-feature__content button {
@@ -56,6 +57,7 @@
 .collection-feature__tags {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 24px;
 }
 
 .collection-feature__tags a {
