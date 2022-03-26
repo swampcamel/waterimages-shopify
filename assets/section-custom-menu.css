@@ -20,11 +20,22 @@
 .custom-menu ul > li a {
   text-decoration: none;
   color: black;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: bold;
+  transition: 0.29s ease-in-out all;
 }
+
+.custom-menu ul > li a:hover {
+  transform: scale(1.02);
+  letter-spacing: (0.5px);
+  color: #ceffc9;
+}
+
 .custom-menu ul > li a:visited {
   color: black;
 }
 
-.color-background-2 {
+.color-background-2 .custom-menu ul > li a, .color-background-2 .custom-menu ul > li a:visited{
   color: white;
 }
