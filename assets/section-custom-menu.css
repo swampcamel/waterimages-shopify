@@ -30,9 +30,9 @@
   color: white;
 }
 
-.custom-menu ul > li a:hover, .color-background-2.custom-menu ul > li a {
+.custom-menu ul > li a:hover, .color-background-2.custom-menu ul > li a:hover {
   transform: scale(1.02);
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   color: #ceffc9;
 }
 
